@@ -84,3 +84,75 @@
 
 2020-02-20T19:04:50+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
 
+2020-02-20T19:08:42+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:09:06+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 333
+
+2020-02-20T19:09:07+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 333
+
+2020-02-20T19:09:19+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:09:28+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:09:52+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:09:54+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:10:07+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:10:20+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:10:30+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:11:13+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:11:29+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:11:45+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:11:56+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:11:57+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:12:43+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:15:14+00:00 CRITICAL syntax error, unexpected '*' dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/template-parts/header-profile.php à la ligne 192
+
+2020-02-20T19:15:29+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:15:30+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:15:43+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:17:43+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:19:12+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:19:26+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:21:20+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:21:26+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:21:49+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:22:48+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:22:51+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:23:06+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:24:45+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:24:56+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:25:00+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:25:11+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:25:13+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:25:22+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
+2020-02-20T19:25:26+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) dans /Applications/MAMP/htdocs/boutique-lapnl/wp-content/themes/boss-child/functions.php à la ligne 331
+
