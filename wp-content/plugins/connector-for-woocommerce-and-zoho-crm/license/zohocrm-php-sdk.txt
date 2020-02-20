@@ -1,0 +1,1 @@
+This plugin uses the Zoho CRM PHP SDK, copyright Zoho Corporation Pvt. Ltd. Requested permission for use in a GNU GPL v3+ licensed product and received permission on 2019-12-02.

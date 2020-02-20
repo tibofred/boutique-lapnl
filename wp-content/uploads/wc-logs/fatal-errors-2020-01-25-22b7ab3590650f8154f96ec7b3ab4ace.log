@@ -1,0 +1,2 @@
+2020-01-25T23:50:52+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) dans /home/lapnl/boutique.lapnl.ca/wp-includes/pomo/streams.php à la ligne 205
+

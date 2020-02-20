@@ -1,0 +1,751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Usernames Emails Characters\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-16 18:41+0000\n"
+"PO-Revision-Date: 2018-08-16 18:44+0000\n"
+"Last-Translator: vvv vb <mohamedmohamed42222@yahoo.fr>\n"
+"Language-Team: Moroccan Arabic\n"
+"Language: ary\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ar_AE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: page-setts.php:16
+msgid "Restrict Usernames Emails Characters ..."
+msgstr "حظر اسم,بريد,رموز في التسجيل"
+
+#: page-setts.php:41
+msgctxt "label_settings_field"
+msgid "Enable"
+msgstr "تفعيل"
+
+#: page-setts.php:47
+msgctxt "label_settings_field"
+msgid "Enable the plugin"
+msgstr "تفعيل الإضافة"
+
+#: page-setts.php:55
+msgctxt "label_settings_field"
+msgid "Not allow spaces in usernames"
+msgstr "منع استخدام الفراغات في الاسم"
+
+#: page-setts.php:56
+msgctxt "label_settings_field"
+msgid "Allow spaces in usernames"
+msgstr "السماح باستعمال الفراغات في اسم المستخدم"
+
+#: page-setts.php:57
+msgctxt "label_settings_field"
+msgid "Not allow use the spaces between words or characters in the user name"
+msgstr "منع استعمال الفراغات بين الكلمات أو الحروف في اسم المستخدم"
+
+#: page-setts.php:58
+msgctxt "label_settings_field"
+msgid "Allow use the spaces between words or characters in the user name"
+msgstr "إمكانية استخدام الفراغ بين الكلمات أو الحروف في اسم المستخدم"
+
+#: page-setts.php:62
+msgctxt "label_settings_field"
+msgid ""
+"Allow multi whitespace and space at the beginning or the end of the username "
+"(It's not recommended to enable it)"
+msgstr ""
+"السماح باستخدام الفراغ المتعدد أي أكثر من فراغ أو الفراغ قبل اسم المستخدم أو "
+"بعده (تفعيله غير مستحسن)"
+
+#: page-setts.php:63
+msgctxt "label_settings_field"
+msgid "enable this if option (Allow spaces in usernames) is disabled"
+msgstr ""
+"يمكن تفعيل هذا الخيار فقط إذا كان خيار (السماح باستعمال الفراغات ...) معطّل"
+
+#: page-setts.php:64
+msgctxt "label_settings_field"
+msgid "enable this if option (Allow spaces in usernames) is enabled"
+msgstr ""
+"يمكن تفعيل هذا الخيار فقط إذا كان خيار (السماح باستعمال الفراغات ...) مفعّل"
+
+#: page-setts.php:68
+msgctxt "label_settings_field"
+msgid "Not allow use only numbers in the username"
+msgstr "منع استخدام الأرقام فقط في الاسم"
+
+#: page-setts.php:69
+msgctxt "label_settings_field"
+msgid "allow use only digits (numbers) in the username"
+msgstr "السماح باستخدام الأرقام لوحدها في اسم المستخدم"
+
+#: page-setts.php:70
+msgctxt "label_settings_field"
+msgid "Not allow use only numbers, for example: 4752442 or +4752442"
+msgstr "منع استخدام الأرقام فقط, مثل: 4752442 أو +4752442"
+
+#: page-setts.php:71
+msgctxt "label_settings_field"
+msgid "allow use only numbers, for example: 4752442 or +4752442"
+msgstr "إمكانية استخدام الأرقام فقط في الاسم, هكذا مثلا: 4752442 أو +4752442"
+
+#: page-setts.php:75
+msgctxt "label_settings_field"
+msgid "The digits must be less than the characters in username"
+msgstr "يجب أن تكون الأرقام أقل من الحروف في اسم المستخدم"
+
+#: page-setts.php:76
+msgctxt "label_settings_field"
+msgid "The digits (numbers) must be less than the characters in username."
+msgstr "يجب أن تكون الأرقام أقل من الحروف وغيرها."
+
+#: page-setts.php:80
+msgctxt "label_settings_field"
+msgid "No uppercase in username"
+msgstr "منع الأحرف الكبيرة اللاتينية (uppercase) في اسم المستخدم"
+
+#: page-setts.php:81
+msgctxt "label_settings_field"
+msgid "Use uppercase (if latin is enabled)"
+msgstr "استعمال الحروف الكبيرة uppercase (في حال اختيار اللغة اللاتينية)"
+
+#: page-setts.php:82 page-setts.php:87 page-setts.php:364 page-setts.php:370
+#: page-setts.php:376 page-setts.php:382 page-setts.php:388 page-setts.php:394
+#: page-setts.php:400 page-setts.php:406 page-setts.php:436
+msgctxt "label_settings_field"
+msgid ""
+msgstr ""
+
+#: page-setts.php:86
+msgctxt "label_settings_field"
+msgid "Do not allow usernames that are email addresses"
+msgstr "منع استخدام البريد كاسم مستخدم"
+
+#: page-setts.php:91
+msgctxt "label_settings_field"
+msgid "Prevent the use of all Symbols and letters accented in the username"
+msgstr "منع جميع الرموز والحروف المعلّمة (accent) في اسم المستخدم"
+
+#: page-setts.php:110
+msgid "Choose language (characters) in username."
+msgstr "اختر لغة الحروف المستعملة في اسم المستخدم"
+
+#: page-setts.php:116
+msgid "Default language by wordpress (Latin)"
+msgstr "اللغة الافتراضية في الووردبريس (اللاتينية)"
+
+#: page-setts.php:117
+msgid "All languages (all letters and numbers and accented as: é û)"
+msgstr "جميع اللغات (كل الحروف والأرقام إضافة إلى المعلّمة مثل: é û)"
+
+#: page-setts.php:118
+msgid "Arabic"
+msgstr "عربي"
+
+#: page-setts.php:119
+msgid "Cyrillic"
+msgstr "سرياني"
+
+#: page-setts.php:120
+msgid "Arabic and Cyrillic"
+msgstr "عربي وسرياني"
+
+#: page-setts.php:121
+msgid "Enter another language below"
+msgstr "أدخل لغة أخرى في الأسفل"
+
+#: page-setts.php:134
+msgid ""
+"copy your language from <a target=\"_blank\" href=\"http://benaceur-php.com/?"
+"p=2281\">this page</a>"
+msgstr ""
+"اختر لغة من <a target=\"_blank\" href=\"http://benaceur-php.com/?p=2281\">"
+"هذه الصفحة</a>"
+
+#: page-setts.php:135
+msgid "Separate between language by commas, for example: Hebrew,Greek,Ethiopic"
+msgstr "افصل بين لغة وأخرى بفاصلة (,) مثال: Hebrew,Greek,Ethiopic"
+
+#: page-setts.php:147
+msgid "with latin"
+msgstr "مع اللاتينية"
+
+#: page-setts.php:148
+msgid "only"
+msgstr "فقط"
+
+#: page-setts.php:181
+msgctxt "label_settings_field"
+msgid "Prevent the use of characters (Symbols) permitted by wordpress"
+msgstr "منع الرموز المسموحة في الووردبريس"
+
+#: page-setts.php:182
+msgctxt "label_settings_field"
+msgid ""
+"Symbols permitted by wordpress is: _ . - @<br />Place each character in one "
+"line, for example: <br />@<br />.<br />-"
+msgstr ""
+"الرموز المسموحة في الووردبريس هي: _ . - @<br />ضع كل رمز في سطر واحد, مثال: "
+"<br />@<br />.<br />-"
+
+#: page-setts.php:189
+msgid "Allow this characters (Symbols or characters accented as é û)"
+msgstr "السماح باستعمال (الرموز أو الحروف المعلمة مثل é û) التالية"
+
+#: page-setts.php:190
+msgctxt "label_settings_field"
+msgid ""
+"<span style=\"color:red; font-style:normal;\">The following three symbols ( "
+"&#39; &#34; &#92; ) have been blocked<br />Because allowing these symbols "
+"can cause problems when the registration</span><br />Place each character in "
+"one line, for example: <br />(<br />+<br />é"
+msgstr ""
+"<span style=\"color:red; font-style:normal;\">هذه الرموز الثلاثة ( &#39; "
+"&#34; &#92; ) قد تم تعطيلها لأن السماح<br /> باستخدامها قد يحدث مشكلة أثناء "
+"التسجيل.</span><br />ضع كل رمز في سطر واحد, مثال: <br />(<br />+<br />é"
+
+#: page-setts.php:197
+msgctxt "label_settings_field"
+msgid "Not allow these mails"
+msgstr "حظر استعمال البريد ( البُرُد) التالية"
+
+#: page-setts.php:198
+msgctxt "label_settings_field"
+msgid ""
+"Place each email in one line, for example: <br />emailA@yahoo.com<br />"
+"emailB@gmail.com"
+msgstr ""
+"ضع كل بريد في سطر واحد, مثال: <br />emailA@yahoo.com<br />emailB@gmail.com"
+
+#: page-setts.php:205
+msgctxt "label_settings_field"
+msgid "Not allow these names"
+msgstr "حظر الأسماء التالية"
+
+#: page-setts.php:206
+msgctxt "label_settings_field"
+msgid ""
+"Place each name in one line, for example: <br />nameA<br />nameB<br />nameC"
+msgstr "ضع كل اسم في سطر واحد, مثال: <br />اسم أ<br />اسم ب<br />اسم ج"
+
+#: page-setts.php:213
+msgctxt "label_settings_field"
+msgid "Do not allow any name contains this part"
+msgstr "حظر كل اسم يحتوي على هذا الجزء"
+
+#: page-setts.php:214
+msgctxt "label_settings_field"
+msgid ""
+"For example, if we enter \"ben\", any name containing this part will be "
+"blocked as \"benaceur\"<br />Place each word in one line"
+msgstr ""
+"على سبيل المثال إذا أدخلنا \"ben\" فسوف يتم حظر كل اسم يحتوي على ذلك الجزء "
+"مثل \"benaceur\"<br />ضع كل كلمة في سطر"
+
+#: page-setts.php:221
+msgctxt "label_settings_field"
+msgid "Not allow these emails domain"
+msgstr "حظر أسماء النطاق (domain) التالية"
+
+#: page-setts.php:222
+msgctxt "label_settings_field"
+msgid ""
+"Place each domain name in one line, for example: <br />domainNameA.com<br />"
+"domainNameB.com<br />domainNameC.net"
+msgstr ""
+"ضع كل اسم نطاق في سطر واحد, مثال: <br />domainNameA.com<br />domainNameB."
+"com<br />domainNameC.net"
+
+#: page-setts.php:263
+msgctxt "label_settings_field"
+msgid "min length of the username"
+msgstr "الحد الأدنى لطول اسم المستخدم"
+
+#: page-setts.php:268
+msgctxt "label_settings_field"
+msgid "max length of the username"
+msgstr "الحد الأقصى لطول اسم المستخدم"
+
+#: page-setts.php:287
+msgctxt "label_settings_field"
+msgid "length with space"
+msgstr "احتساب الفراغ في طول الاسم"
+
+#: page-setts.php:288
+msgctxt "label_settings_field"
+msgid "take account the space in the username"
+msgstr "الأخذ بعين الاعتبار الفراغ في احتساب طول الاسم أي الحروف مع الفراغ"
+
+#: page-setts.php:292
+msgid "Remove the name field from the form of registration"
+msgstr "حذف حقل الاسم من فورم التسجيل"
+
+#: page-setts.php:297
+msgid "Hide the entire section of the profile in the form of registration"
+msgstr "إخفاء جميع قسم الملف الشخصي (Profile) من فورم التسجيل"
+
+#: page-setts.php:298
+msgid "But if you want to add other fields, do not check this box"
+msgstr "لا يجب تفعيل هذا الخيار إن كنت تريد إضافة حقل جديد"
+
+#: page-setts.php:325
+msgid "Add text (notice) to the registration form"
+msgstr "إضافة نص أو تنبيه في فورم التسجيل"
+
+#: page-setts.php:331
+msgid "You can use HTML, as for example:<br />"
+msgstr "يمكنك استخدام أكواد html, على سبيل المثال:<br />"
+
+#: page-setts.php:337
+msgid "Delete all data and settings for plugin of the database."
+msgstr "حذف جميع بيانات وإعدادات الإضافة من قاعدة البيانات."
+
+#: page-setts.php:345
+msgid ""
+"Remove all settings and data of the plugin from database when the plugin is "
+"disabled"
+msgstr "حذف جميع إعدادات وبيانات الإضافة من قاعدة البيانات عند تعطيلها"
+
+#: page-setts.php:346
+msgid "Do not delete"
+msgstr "لا تحذف"
+
+#: page-setts.php:363
+msgctxt "label_settings_field"
+msgid "Error: Enter a username"
+msgstr "خطأ: أدخل اسم المستخدم"
+
+#: page-setts.php:369
+msgctxt "label_settings_field"
+msgid "Error: username exist"
+msgstr "خطأ: اسم المستخدم موجود مسبقا"
+
+#: page-setts.php:375
+msgctxt "label_settings_field"
+msgid "Error: space in the username"
+msgstr "خطأ: الفراغ في اسم المستخدم"
+
+#: page-setts.php:381
+msgctxt "label_settings_field"
+msgid "Error: multi whitespace and at the beginning or the end of the username"
+msgstr "خطأ: الفراغ المتعدد في اسم المستخدم أو قبله أو بعده"
+
+#: page-setts.php:387
+msgctxt "label_settings_field"
+msgid "Error: only numbers in the username"
+msgstr "خطأ: الأرقام فقط في اسم المستخدم"
+
+#: page-setts.php:393
+msgctxt "label_settings_field"
+msgid "Error: Characters (Symbols) in the username"
+msgstr "خطأ: الرموز في اسم المستخدم"
+
+#: page-setts.php:399
+msgctxt "label_settings_field"
+msgid "Error: restricted emails"
+msgstr "خطأ: البريد المحظور"
+
+#: page-setts.php:405
+msgctxt "label_settings_field"
+msgid "Error: restricted usernames"
+msgstr "خطأ: اسم المستخدم المحظور"
+
+#: page-setts.php:411
+msgctxt "label_settings_field"
+msgid "Error: min length of the username"
+msgstr "خطأ: الحد الأدنى لطول الاسم"
+
+#: page-setts.php:412
+msgctxt "label_settings_field"
+msgid "use %min% to change the value automatically"
+msgstr "استخدم %min% لتغيير القيمة آليا كلما تغيّرت"
+
+#: page-setts.php:417
+msgctxt "label_settings_field"
+msgid "Error: max length of the username"
+msgstr "خطأ: الحد الأقصى لطول الاسم"
+
+#: page-setts.php:418
+msgctxt "label_settings_field"
+msgid "use %max% to change the value automatically"
+msgstr "استخدم %max% لتغيير القيمة آليا كلما تغيّرت"
+
+#: page-setts.php:423
+msgctxt "label_settings_field"
+msgid "Error: part of the username"
+msgstr "خطأ: جزء من اسم المستخدم"
+
+#: page-setts.php:424
+msgctxt "label_settings_field"
+msgid "use %part% to change the value automatically"
+msgstr "استخدم %part% لتغيير القيمة آليا."
+
+#: page-setts.php:429
+msgctxt "label_settings_field"
+msgid "Error: The digits less than characters."
+msgstr "خطأ: الأرقام أقل من الحروف."
+
+#: page-setts.php:430
+msgctxt "label_settings_field"
+msgid "The digits (numbers) less than characters."
+msgstr "الأرقام أقل من الحروف وغيرها."
+
+#: page-setts.php:435
+msgctxt "label_settings_field"
+msgid "Error: usernames that are email addresses"
+msgstr "خطأ: البريد كاسم مستخدم"
+
+#: page-setts.php:441
+msgctxt "label_settings_field"
+msgid "Error: No uppercase (A-Z) in username."
+msgstr "خطأ: الحروف الكبيرة (A-Z) في اسم المستخدم."
+
+#: page-setts.php:442
+msgctxt "label_settings_field"
+msgid "Do not allow use the uppercase (A-Z) in username."
+msgstr "منع استخدام الحروف الكبيرة (A-Z) في اسم المستخدم."
+
+#: page-setts.php:666
+msgid "Settings saved successfully."
+msgstr "تم حفظ الإعدادات بنجاح."
+
+#: page-setts.php:677
+msgid "General Settings"
+msgstr "إعدادات عامة"
+
+#: page-setts.php:678
+msgid "Error Messages"
+msgstr "رسائل الخطأ"
+
+#: page-setts.php:679
+msgid "Important!"
+msgstr "هام!"
+
+#: page-setts.php:680
+msgid "Extentions"
+msgstr "إضافات"
+
+#: page-setts.php:689
+msgid "network"
+msgstr "الشبكة"
+
+#: page-setts.php:691
+msgid "The plugin must be enabled on the"
+msgstr "يجب تفعيل هذه الإضافة على"
+
+#: page-setts.php:693
+msgid "to work without any problem"
+msgstr "حتى تعمل بدون مشاكل"
+
+#: page-setts.php:720 page-setts.php:738
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: page-setts.php:751 page-setts.php:791
+msgid "Reset default settings"
+msgstr "إعادة الاعدادات الافتراضية"
+
+#: page-setts.php:757
+msgid "Reset general option"
+msgstr "إعادة تعيين الإعدادات العامة"
+
+#: page-setts.php:797
+msgid "Reset error_messages"
+msgstr "إعادة تعيين إعدادات رسائل الخطأ"
+
+#: page-setts.php:810
+msgid "Export Settings"
+msgstr "تصدير الإعدادات"
+
+#: page-setts.php:812
+msgid ""
+"Export the plugin settings as a .json file. This allows you to easily import "
+"the configuration."
+msgstr ""
+"تصدير إعدادات الإضافة على هيئة ملف json, سيسمح لك باستيرادها مرة أخرى بكل "
+"سهولة."
+
+#: page-setts.php:824
+msgid "Import Settings"
+msgstr "استيراد الإعدادات"
+
+#: page-setts.php:826
+msgid "Import the plugin settings from the saved .json file."
+msgstr "استيراد إعدادات الإضافة من خلال ملف json المحفوظ في جهازك."
+
+#: page-setts.php:838
+msgid "Importing parameter files is in progress, wait ..."
+msgstr "جاري استيراد ملف الإعدادات ... انتظر قليلا!"
+
+#: page-setts.php:841
+msgid "The parameters file was imported successfully."
+msgstr "تم استيراد ملف الإعدادات بنجاح."
+
+#: page-setts.php:850
+msgid "Important to read"
+msgstr "مهمّ أن تقرأه"
+
+#: page-setts.php:854
+msgid ""
+"- If you use login_errors hook then you know that it affects the error "
+"messages in registration also, it is best to use authenticate hook if you "
+"want to eg change the connection error messages it is best to use "
+"authenticate hook, if you want help about the modification of connection "
+"(log in) error messages contact me by creating a new post with your question "
+"on: <a target=\"_blank\" href=\"http://benaceur-php.com/general-support/\">"
+"general-support</a>"
+msgstr ""
+"- إذا كنت تستعمل هوك login_errors فاعلم أنه يؤثر على رسائل الخطأ الخاصة باسم "
+"المستخدم في التسجيل أيضا, ولذلك من الأفضل استعمال authenticate بدلا منه فهو "
+"أفضل إذا كنت تريد أن تعدل على رسائل الخطأ الخاصة بالدخول إلى حسابك, إذا كنت "
+"محتاجا إلى المساعدة في ما يخص التعديل على رسائل الخطأ الخاصة بتسجيل الدخول "
+"اتصل بي وذلك بفتح موضوع جديد في: <a target=\"_blank\" href=\"http://benaceur-"
+"php.com/general-support/\">general-support</a> "
+
+#: page-setts.php:860
+msgid "Other plugins of my development"
+msgstr "إضافات أخرى من تطويري"
+
+#: page-setts.php:870
+msgid ""
+"The evaluation of the plugin is important for continuity, If you're finding "
+"this plugin useful, please rate it on: <a target='_blank' href='https:"
+"//wordpress.org/support/plugin/restrict-usernames-emails-characters/reviews/?"
+"filter=5'>this link</a>"
+msgstr ""
+"تقييم هذه الإضافة مهم لاستمرارها, فإذا وجدت هذه الإضافة مهمة ومفيدة لك, فمن "
+"فضلك لاتنس تقييمها على <a target='_blank' href='https://wordpress."
+"org/support/plugin/restrict-usernames-emails-characters/reviews/?filter=5'>"
+"هذا الرابط</a>"
+
+#: page-setts.php:876
+msgid ""
+" <a target=\"_blank\" href=\"http://benaceur-php.com/\">benaceur php</a> "
+msgstr ""
+
+#: page-setts.php:877
+msgid ""
+"This is the support of the plugin: <a target=\"_blank\" href=\"http:"
+"//benaceur-php.com/?p=2268\">support</a>"
+msgstr ""
+
+#: restrict-usernames-emails-characters.php:239
+msgid "Settings"
+msgstr "إعدادات"
+
+#: restrict-usernames-emails-characters.php:248
+msgid "Support"
+msgstr ""
+
+#: restrict-usernames-emails-characters.php:500
+msgctxt "params_js_o"
+msgid "Wait a little ..."
+msgstr "انتظر قليلا ..."
+
+#: restrict-usernames-emails-characters.php:501
+msgctxt "params_js_o"
+msgid "Settings reset successfully"
+msgstr "تم إعادة تعيين الإعدادات الافتراضية بنجاح"
+
+#: restrict-usernames-emails-characters.php:502
+#: restrict-usernames-emails-characters.php:622
+msgid "Please upload a valid .json file"
+msgstr "ارفع ملف .json صالح من فضلك"
+
+#: restrict-usernames-emails-characters.php:554
+msgid "You are using Version"
+msgstr "أنت تستخدم النسخة"
+
+#: restrict-usernames-emails-characters.php:554
+msgid "There is a newer version, it's recommended to"
+msgstr "هناك نسخة أحدث متاحة, يستحسن"
+
+#: restrict-usernames-emails-characters.php:554
+msgid "update now"
+msgstr "التحديث الآن"
+
+#: restrict-usernames-emails-characters.php:572
+msgid "here"
+msgstr "هنا"
+
+#: restrict-usernames-emails-characters.php:573
+msgid "Registration is currently closed! open it:"
+msgstr "حاليا التسجيل في الموقع مغلق! يمكن فتحه من:"
+
+#: admin/my-plugins.php:9 admin/my-plugins.php:18 admin/my-plugins.php:29
+#: admin/my-plugins.php:38
+msgid "more details ..."
+msgstr "المزيد من التفاصيل"
+
+#: classes/classe_errors.php:19
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+"<strong>خطأ</strong>: اسم المستخدم غير صحيح لأنه يحتوي على رموز أو حروف "
+"ممنوعة. يرجى اختيار اسم مستخدم آخر."
+
+#: classes/classe_errors.php:27
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>خطأ</strong>: يرجى التأكد من كتابة اسم المستخدم."
+
+#: classes/classe_errors.php:34
+msgid ""
+"<strong>ERROR</strong>: is not allowed to use multi whitespace or whitespace "
+"at the beginning or the end of the username."
+msgstr ""
+"<strong>خطأ</strong>: لايسمح باستخدام أكثر من فراغ أو الفراغ في بداية اسم "
+"المستخدم أو نهايته."
+
+#: classes/classe_errors.php:41
+msgid ""
+"<strong>ERROR</strong>: This username is already registered. Please choose "
+"another one."
+msgstr "<strong>خطأ</strong>: اسم المستخدم هذا مسجّل مسبقاً. يُرجى اختيار آخر."
+
+#: classes/classe_errors.php:48
+msgid "<strong>ERROR</strong>: It's not allowed to use spaces in username."
+msgstr "<strong>خطأ</strong>: الفراغات غير مسموح بها في اسم المستخدم."
+
+#: classes/classe_errors.php:55
+msgid ""
+"<strong>ERROR</strong>: This username is not allowed, choose another please."
+msgstr "<strong>خطأ</strong>: هذا الاسم غير مسموح به, اختر آخر من فضلك."
+
+#: classes/classe_errors.php:63
+msgid "<strong>ERROR</strong>: No uppercase (A-Z) in username."
+msgstr ""
+"<strong>خطأ</strong>: لا يسمح باستخدام الحروف الكبيرة (A-Z) في اسم المستخدم."
+
+#: classes/classe_errors.php:70
+msgid ""
+"<strong>ERROR</strong>: Do not allow usernames that are email addresses."
+msgstr "<strong>خطأ</strong>: لا يسمح باستخدام البريد الإلكتروني كاسم مستخدم."
+
+#: classes/classe_errors.php:73
+msgid ""
+"<strong>ERROR</strong>: This part <font color='#FF0000'>%part%</font> is not "
+"allowed in username."
+msgstr ""
+"<strong>خطأ</strong>: هذا الجزء <font color='#FF0000'>%part%</font> غير "
+"مسموح به في اسم المستخدم."
+
+#: classes/classe_errors.php:79
+msgid "<strong>ERROR</strong>: Username must be at least %min% characters."
+msgstr "<strong>خطأ</strong>: يجب ألاّ يقلّ اسم المسخدم عن %min% حروف."
+
+#: classes/classe_errors.php:86
+msgid ""
+"<strong>ERROR</strong>: Username may not be longer than %max% characters."
+msgstr "<strong>خطأ</strong>: يجب ألاّ يتجاوز اسم المستخدم %max% حروف."
+
+#: classes/classe_errors.php:97
+msgid "<strong>ERROR</strong>: You can't register with just numbers."
+msgstr ""
+"<strong>خطأ</strong>: يُمنع استخدام الأرقام فقط لوحدها في اسم المستخدم."
+
+#: classes/classe_errors.php:104
+msgid ""
+"<strong>ERROR</strong>: The digits must be less than the characters in "
+"username."
+msgstr ""
+"<strong>خطأ</strong>: يجب أن تكون الأرقام أقل من الحروف في اسم المستخدم."
+
+#: classes/classe_errors.php:111 classes/classe_errors.php:119
+msgid ""
+"<strong>ERROR</strong>: This email is not allowed, choose another please."
+msgstr "<strong>خطأ</strong>: هذا البريد غير مسموح به, اختر آخر من فضلك."
+
+#: classes/classe_mubp.php:46
+msgid "This username is not allowed, choose another please."
+msgstr "هذا الاسم غير مسموح به, اختر آخر من فضلك."
+
+#: classes/classe_mubp.php:47
+msgid "Username must be at least %min% characters."
+msgstr "يجب ألاّ يقلّ اسم المسخدم عن %min% حروف."
+
+#: classes/classe_mubp.php:49
+msgid "Username may not be longer than %max% characters."
+msgstr "يجب ألاّ يتجاوز اسم المستخدم %max% حروف."
+
+#: classes/classe_mubp.php:51
+msgid "The digits must be less than the characters in username."
+msgstr "يجب أن تكون الأرقام أقل من الحروف في اسم المستخدم."
+
+#: classes/classe_mubp.php:52
+msgid "It's not allowed to use spaces in username."
+msgstr "الفراغات غير مسموح بها في اسم المستخدم."
+
+#: classes/classe_mubp.php:53
+msgid "You can't register with just numbers."
+msgstr "يُمنع استخدام الأرقام فقط لوحدها في اسم المستخدم."
+
+#: classes/classe_mubp.php:54
+msgid ""
+"This username is invalid because it uses illegal characters. Please enter a "
+"valid username."
+msgstr ""
+"اسم المستخدم غير صحيح لأنه يحتوي على رموز أو حروف ممنوعة. يرجى اختيار اسم "
+"مستخدم آخر."
+
+#: classes/classe_mubp.php:55
+msgid "Do not allow usernames that are email addresses."
+msgstr "لا يسمح باستخدام البريد الإلكتروني كاسم مستخدم."
+
+#: classes/classe_mubp.php:56
+msgid "No uppercase (A-Z) in username."
+msgstr "لا يسمح باستخدام الحروف الكبيرة (A-Z) في اسم المستخدم."
+
+#: classes/classe_mubp.php:57
+msgid ""
+"is not allowed to use multi whitespace or whitespace at the beginning or the "
+"end of the username."
+msgstr ""
+"لايسمح باستخدام أكثر من فراغ أو الفراغ في بداية اسم المستخدم أو نهايته."
+
+#: classes/classe_mubp.php:58
+msgid "Please enter a username."
+msgstr "يرجى التأكد من كتابة اسم المستخدم."
+
+#: classes/classe_mubp.php:59
+msgid "This username is already registered. Please choose another one."
+msgstr "اسم المستخدم هذا مسجّل مسبقاً. يُرجى اختيار آخر."
+
+#: classes/classe_mubp.php:61
+msgid "This email is not allowed, choose another please."
+msgstr "هذا البريد غير مسموح به, اختر آخر من فضلك."
+
+#: classes/classe_mubp.php:63
+msgid ""
+"This part <font color='#FF0000'>%part%</font> is not allowed in username."
+msgstr "هذا الجزء %part% غير مسموح به في اسم المستخدم."
+
+#. Name of the plugin
+msgid "Restrict Usernames Emails Characters"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Restrict the usernames, email addresses, characters and symbols or email "
+"from specific domain names or language in registration ..."
+msgstr ""
+"حظر ومنع اسم أو أسماء مستخدم, بريد, رموز معينة, اسماء نطاقات معينة, أو "
+"السماح لرموز أو لغات معينة للتسجيل في موقعك ..."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://benaceur-php.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "benaceur"
+msgstr ""
