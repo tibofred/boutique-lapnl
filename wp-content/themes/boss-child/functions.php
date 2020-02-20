@@ -245,7 +245,11 @@ function getListMaterials() {
 	        	$return .= '<a href="'.$fichier['url'].'">';
 	        }
 	        if(!empty($image['url'])) {
-	        	$return .= '<img src="'.$image['url'].'" alt="" />';
+	        	$return .= '
+	        	<a download="'.$image['url'].'" href="/path/to/image" title="ImageName">
+	        	    <img src="'.$image['url'].'" alt="" />
+	        	</a>
+	        	';
 	        } else {
 	        	$return .= '<img src="https://lapnl.org/wp-content/plugins/woocommerce/assets/images/placeholder.png" alt="" />';
 	        }
@@ -266,6 +270,54 @@ function getListMaterials() {
 add_shortcode('list_materials', 'getListMaterials');
 
 
+function get_categories_idcom($term_id,$deb='') {
+	$args = array(
+			'parent'                   => $term_id,
+			'hide_empty'               => 1,
+			'orderby'                  => 'rand',
+			'taxonomy'                 => 'product_cat',
+
+	        'orderby' => 'order',
+	        'order'=> 'ASC',
+
+		);
+	$terms = get_term_meta($term_id);
+	$enfants = get_categories( $args );
+    if(sizeof($enfants)>0) {
+    	foreach($enfants as $enfant) {
+    		get_categories_idcom($enfant->term_id,$deb=1);
+		}
+	} else {
+		$cat = get_term_by('term_id', $term_id, 'product_cat');
+		if(!empty($deb)) {
+		?>
+		<h3 id="cat_<?php echo $term_id;?>" class="h3_cat"><?php echo $cat->name; ?></h3>
+		<?php
+		}
+		?>
+		<ul class="products columns-3">
+		<?php
+		$args = array(
+			'post_type' => 'product',
+			'product_cat' => $cat->slug,
+			'orderby' => 'publish_date',
+			'order'   => 'DESC',
+			'posts_per_page' => '50',
+			);
+		$loop = new WP_Query( $args );
+		if ( $loop->have_posts() ) {
+			while ( $loop->have_posts() ) {
+				$loop->the_post();
+				do_action( 'woocommerce_shop_loop' );
+				wc_get_template_part( 'content', 'product' );
+			}
+		}
+		?>
+		</ul>
+		<?
+
+	}
+}
 
 /**
  * Remove related products output

@@ -1,5 +1,8 @@
 *** WooCommerce Amazon S3 Storage ***
 
+2020-02-18 - version 2.1.17
+* Tweak - Remove legacy code.
+
 2020-01-13 - version 2.1.16
 * Tweak - WC tested up to 3.9
 

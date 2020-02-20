@@ -1,37 +1,39 @@
 <?php
 /**
  * Plugin Name: WooCommerce Amazon S3 Storage
- * Plugin URI: https://woocommerce.com
+ * Plugin URI: https://woocommerce.com/products/amazon-s3-storage/
  * Description: Store your downloadbable products on Amazon S3 offering faster downloads for your customers and more security for your product.
- * Version: 2.1.16
+ * Version: 2.1.17
  * Author: WooCommerce
  * Author URI: https://woocommerce.com/
  * Requires at least: 3.8
- * Tested up to: 5.2
+ * Tested up to: 5.3
  * WC tested up to: 3.9
  * WC requires at least: 2.6
- *
- * Copyright: © 2019 WooCommerce.
- * License: GNU General Public License v3.0
- * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: wc_amazon_s3
  * Woo: 18663:473bf6f221b865eff165c97881b473bb
+ *
+ * Copyright: © 2020 WooCommerce
+ * License: GNU General Public License v3.0
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * @package woocommerc-amazon-s3-storage
  */
+
+// Plugin init hook.
+add_action( 'plugins_loaded', 'wc_amazon_s3_init' );
 
 /**
- * Required functions
+ * Initialize plugin.
  */
-if ( ! function_exists( 'woothemes_queue_update' ) ) {
-	require_once( 'woo-includes/woo-functions.php' );
-}
+function wc_amazon_s3_init() {
 
-define( 'WC_AMAZON_S3_STORAGE_VERSION', '2.1.16' );
+	if ( ! class_exists( 'WooCommerce' ) ) {
+		add_action( 'admin_notices', 'wc_amazon_s3_woocommerce_deactivated' );
+		return;
+	}
 
-/**
- * Plugin updates
- */
-woothemes_queue_update( plugin_basename( __FILE__ ), '473bf6f221b865eff165c97881b473bb', '18663' );
-
-if ( is_woocommerce_active() ) {
+	define( 'WC_AMAZON_S3_STORAGE_VERSION', '2.1.17' ); // WRCS: DEFINED_VERSION.
 
 	/**
 	 * Localisation
@@ -719,4 +721,12 @@ if ( is_woocommerce_active() ) {
 	} // End if().
 	global $WooCommerce_Amazon_S3_Storage;
 	$WooCommerce_Amazon_S3_Storage = new WooCommerce_Amazon_S3_Storage();
-} // End if().
+}
+
+/**
+ * WooCommerce Deactivated Notice.
+ */
+function wc_amazon_s3_woocommerce_deactivated() {
+	/* translators: %s: WooCommerce link */
+	echo '<div class="error"><p>' . sprintf( esc_html__( 'WooCommerce Amazon S3 Storage requires %s to be installed and active.', 'wc_amazon_s3' ), '<a href="https://woocommerce.com/" target="_blank">WooCommerce</a>' ) . '</p></div>';
+}
